@@ -1,0 +1,21 @@
+body{
+    height: calc(100vh - 66px);
+}
+
+.form-label{
+ color: aliceblue !important; 
+}
+
+.tarjeta{
+    background-color:rgba(0, 0, 0, 0.986);
+    box-shadow: 1px 1px 222px 32px rgba(0, 0, 0, 0.651);
+   border-radius: 10px;
+}
+.sect-fluid{
+    background-color: rgba(255, 174, 0, 0.767);
+}
+
+h1{
+    color: rgba(255, 196, 0, 0.767);
+    text-align: center;
+}

@@ -1,0 +1,182 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+.navbar {
+   background: #353A40;
+   color: white !important;
+}
+
+header ul li a {
+   color: #969289 !important;
+}
+
+.imagen-logo {
+   height: 50px;
+   text-align: center;
+}
+
+.logo h2 {
+   font-size: 18px;
+}
+
+h2 {
+   display: inline-block;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0 0;
+   padding: 0 0;
+
+}
+
+.logo {
+   display: inline-flex;
+   color: white;
+   align-items: center;
+}
+
+.link-verde {
+   color: green !important;
+}
+
+.la-conferencia {
+   height: calc(100vh - 66px);
+   background-image: url("../assets/img/hawaii.jpg");
+   position: relative;
+}
+
+.la-conferencia::before {
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.5);
+   z-index: 1;
+}
+
+.lugar {
+   background: #353A40;
+   height: 400px;
+}
+
+#honolulu {
+   width: 100%;
+   height: 100%;
+}
+
+.textos-principal {
+   color: white;
+   z-index: 1;
+}
+
+.btn-orador {
+   font-size: 0.8rem;
+   padding: 0 4px;
+   margin: 0;
+}
+
+.cards {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+
+}
+
+.btn-js {
+   background-color: #FCC007;
+}
+
+.btn-react {
+   background-color: #179FB7;
+   color: white;
+}
+
+.btn-negocios {
+   background-color: #5D646C;
+   color: white;
+}
+
+.btn-startups {
+   background-color: #C9334B;
+   color: white;
+}
+
+
+ul li:hover,
+nav a:hover {
+   opacity: 0.8;
+}
+
+.btn:hover {
+   cursor: pointer;
+}
+
+
+
+.btn-submit {
+   background-color: #96C93E;
+   color: white;
+}
+
+footer {
+   background: #1D4054;
+}
+
+footer ul {
+   list-style: none;
+}
+
+footer ul li a {
+   color: white !important;
+
+}
+
+.btn-ser-orador,
+.btn-conoce-mas {
+   color: white;
+   background-color: transparent;
+   border: 1px solid white;
+}
+
+.btn-comprar-ticket {
+   color: white;
+   background-color: #29A744;
+}
+
+h2 {
+   font-weight: bold;
+}
+
+.cards-categorias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+   justify-content: space-evenly;
+}
+#container-comprar-tickets{
+   background-color: #f0f0ed;
+}
+.card1{
+   border: solid 2px rgb(0, 123, 255);
+     
+}
+.card2{
+   border: solid 2px rgb(23, 162, 184);
+    
+}
+.card3{
+   border: solid 2px rgb(255, 193, 7);
+    
+}
+.document{
+   font-size: 0.7em;
+ font-weight: 100;  
+}
+.categ{
+   line-height: 2em;
+}
